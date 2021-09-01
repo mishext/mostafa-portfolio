@@ -155,7 +155,8 @@
 
 .aboutme-p3 {
   padding-top: 20px;
-  color: black;
+  color: gray;
+  font-weight: bold;
 }
 
 .grid-aboutme {
@@ -176,7 +177,7 @@
 .grid-p2 {
   font-weight: bold;
   font-size: 15px;
-  color: black;
+  color: gray;
 }
 
 .resume-section {
@@ -269,12 +270,12 @@
   align-content: center;
 }
 
-.services-container-img2 {
-  margin-left: 100px;
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 205px;
+.flex-services {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 .services-layout {
@@ -289,14 +290,8 @@
 }
 .services-layout2 {
   width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  margin: auto;
-  opacity: 1;
-  filter: alpha(opacity=100);
+  position:absolute;
+  margin-top: 50px;
 }
 
 .services-p {
@@ -347,27 +342,9 @@
   font-size: 22px;
   color: white;
   position: absolute;
-  bottom: 20px;
-  padding-left: 110px;
+  margin-top: 445px;
 }
 
-.p-s-layout2 {
-  font-weight: bold;
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  bottom: 20px;
-  padding-left: 105px;
-}
-
-.p-s-layout3 {
-  font-weight: bold;
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  bottom: 20px;
-  padding-left: 85px;
-}
 
 .footer {
   background-color: #171718;
