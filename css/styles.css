@@ -223,21 +223,6 @@ html {
   border-bottom-right-radius: 20px;
 }
 
-.resmue-grid-item {
-  border: solid lightgray 1px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px;
-  border-radius: 30px;
-  align-items: flex-start;
-  text-align: start;
-  box-shadow: 1px 1px gray;
-}
-.resmue-grid-item img {
-  width: 110px;
-  padding-right: 20px;
-  padding-left: 10px;
-}
 
 .resume-p1 {
   font-size: 15px;
