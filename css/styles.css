@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,7 +17,7 @@
   height: 70vh;
   display: flex;
   background-color: #171718;
-  background-image: url("../images/frame3.png");
+  background-image: url("../images/Frame-9.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat, repeat;
@@ -187,7 +192,7 @@
 .resmue-grid {
   padding-top: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -195,6 +200,27 @@
   position: relative;
   text-align: center;
   padding-bottom: 50px;
+}
+
+.project-photo {
+  width: 480px;
+  /* margin-left: 40px; */
+  /* padding-right: 120px; */
+}
+
+.project-photo1 {
+  width: 480px;
+  border-top: solid gray 2px;
+  /* border-radius: 20px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.project-photo4 {
+  width: 480px;
+  border-bottom: solid gray 2px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .resmue-grid-item {
@@ -221,9 +247,18 @@
 
 .resume-p2 {
   padding-top: 5px;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.resume-p2 a{
+  color: #ff4500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
 }
 
 .resume-p3 {
